@@ -15,10 +15,10 @@ const Map = () => {
       
       if (viewMode === "map") {
         // Regular map view
-        iframe.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.5893163839884!2d-80.54382108823567!3d43.47440846201995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf41c7dae4e41%3A0x389d525e6ae0527c!2s465%20Phillip%20St%2C%20Waterloo%2C%20ON%20N2L%206C7!5e0!3m2!1sen!2sca!4v1689349871412!5m2!1sen!2sca";
+        iframe.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.5893163839884!2d-80.5407583!3d43.4843017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf3fcd9bf4f01%3A0xd6b20935954db542!2sMing%27s+Chinese+Restaurant!5e0!3m2!1sen!2sca!4v1689349871412!5m2!1sen!2sca";
       } else {
         // Street view
-        <iframe src="https://www.google.com/maps/embed?pb=!4v1792551291916!6m8!1m7!1slvJn4TGVeUVJeCA5ze3u9A!2m2!1d43.48424081772034!2d-80.54068096312923!3f327.5471050821499!4f-8.621350221561471!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        iframe.src = "https://www.google.com/maps/embed?pb=!4v1689349947183!6m8!1m7!1slvJn4TGVeUVJeCA5ze3u9A!2m2!1d43.4843017!2d-80.5407583!3f327.5471!4f8.6214!5f0.7820865974627469";
       }
       
       iframe.width = "100%";
@@ -46,7 +46,7 @@ const Map = () => {
             <p className="text-sm text-ming-dark/80">465 Phillip Street, Waterloo, ON N2L 6C7</p>
             <p className="text-sm text-ming-dark/80 mt-1">
               <a 
-                href="https://goo.gl/maps/5sY3Z3Z5Z3Z5Z3Z5A" 
+                href="https://www.google.com/maps/dir//Ming's+Chinese+Restaurant,+465+Phillip+St,+Waterloo,+ON+N2L+6C7/@43.4840778,-80.541486,18.42z/data=!3m1!5s0x882bf3fcd78eb3ed:0x79c1a19db2de80b7!4m16!1m7!3m6!1s0x882bf3fcd9bf4f01:0xd6b20935954db542!2sMing's+Chinese+Restaurant!8m2!3d43.4843017!4d-80.5407583!16s%2Fg%2F1txfpsvt!4m7!1m0!1m5!1m1!1s0x882bf3fcd9bf4f01:0xd6b20935954db542!2m2!1d-80.5407583!2d43.4843017?entry=ttu&g_ep=EgoyMDI2MTAxOC4wIKXMDSoASAFQAw%3D%3D" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-ming-red hover:underline"
