@@ -10,7 +10,7 @@ const { outputText } = ts.transpileModule(source, {
 const { publicAsset } = await import(`data:text/javascript;base64,${Buffer.from(outputText).toString('base64')}`);
 
 test('GitHub Pages public assets use the testreact repository path', () => {
-  assert.equal(publicAsset('/lovable-uploads/sign.png', '/testreact/'), '/testreact/lovable-uploads/sign.png');
+  assert.equal(publicAsset('/images/sign.png', '/testreact/'), '/testreact/images/sign.png');
   assert.equal(publicAsset('favicon.ico', '/testreact/'), '/testreact/favicon.ico');
 });
 
