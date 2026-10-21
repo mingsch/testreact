@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Package } from "lucide-react";
+//import { Package } from "lucide-react";
 import { MenuCategory } from "./types";
 
 interface CategoryTabsProps {
@@ -24,7 +24,7 @@ const categories = [
   { id: "curry", name: "Curry", icon: null },
   { id: "seafood", name: "Seafood", icon: null },
   { id: "loMein", name: "Lo Mein (Egg Noodle)", icon: null },
-  { id: "lunchCombos", name: "Lunch Combos", icon: Package },
+  { id: "lunchCombos", name: "Lunch Combos", icon: null },
   { id: "combinations", name: "Combinations", icon: null },
   { id: "drinks", name: "Drinks", icon: null },
 ] as const;
@@ -56,9 +56,7 @@ const CategoryTabs: React.FC<CategoryTabsProps> = ({ activeCategory, setActiveCa
               onClick={() => setActiveCategory(category.id as MenuCategory)}
               className={`px-4 py-2 rounded-md text-xs lg:text-sm font-medium transition-all duration-300 flex items-center gap-1 ${
                 activeCategory === category.id 
-                  ? category.id === "lunchCombos" 
-                    ? "bg-ming-red text-white font-extrabold underline decoration-2 underline-offset-4"
-                    : "bg-ming-red text-white" 
+                  ? "bg-ming-red text-white" 
                   : "bg-transparent text-ming-dark hover:bg-ming-red/10"
               }`}
             >
