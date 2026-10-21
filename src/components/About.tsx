@@ -29,22 +29,22 @@ const About = () => {
                   <h4 className="font-medium text-gray-800">Opening Hours</h4>
                   <div className="text-gray-800 grid grid-cols-2 gap-2 mt-1">
                     <div>Monday</div>
-                    <div>11:00 AM - 9:00 PM</div>
+                    <div>11:00 AM - 8:30 PM</div>
                     
                     <div>Tuesday</div>
-                    <div>Closed</div>
+                    <div>11:00 AM - 8:30 PM</div>
                     
                     <div>Wednesday - Thursday</div>
-                    <div>11:00 AM - 9:00 PM</div>
+                    <div>11:00 AM - 8:30 PM</div>
                     
                     <div>Friday</div>
-                    <div>11:00 AM - 9:00 PM</div>
+                    <div>11:00 AM - 8:30 PM</div>
                     
                     <div>Saturday</div>
-                    <div>3:30 PM - 9:00 PM</div>
+                    <div>3:30 PM - 8:30 PM</div>
                     
-                    <div>Sunday & Holiday</div>
-                    <div>3:30 PM - 9:00 PM</div>
+                    <div>Sunday & Holidays</div>
+                    <div>3:30 PM - 8:30 PM</div>
                   </div>
                 </div>
               </div>
