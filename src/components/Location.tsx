@@ -34,7 +34,7 @@ const Location = () => {
                 <div>
                   <h4 className="font-semibold text-ming-black">Opening Hours</h4>
                   <div className="text-ming-dark/70 mt-1">
-                    <div className="grid grid-cols-2 gap-2">
+                    <div className="grid grid-cols-2 gap-1">
                       <div>Monday</div>
                       <div>11:00 AM - 8:30 PM</div>
                       
