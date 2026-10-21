@@ -27,14 +27,14 @@ const Location = () => {
             </h3>
             
             <div className="space-y-6">
-              <div className="flex items-start gap-4">
+              <div className="flex items-start gap-10">
                 <div className="bg-ming-red/10 p-3 rounded-full">
                   <Clock className="h-6 w-6 text-ming-red" />
                 </div>
                 <div>
                   <h4 className="font-semibold text-ming-black">Opening Hours</h4>
                   <div className="text-ming-dark/70 mt-1">
-                    <div className="grid grid-cols-2 gap-10">
+                    <div className="grid grid-cols-2 gap-2">
                       <div>Monday</div>
                       <div>11:00 AM - 8:30 PM</div>
                       
