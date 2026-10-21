@@ -11,7 +11,7 @@ export const appetizers: MenuItem[] = [
     name: "1. Egg Roll",
     price: "$2.25",
     category: "appetizers",
-    image: appetizerImages["1. Egg Roll"],
+    //image: appetizerImages["1. Egg Roll"],
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const appetizers: MenuItem[] = [
     price: "$2.50",
     category: "appetizers",
     isPopular: true,
-    image: appetizerImages["2. Spring Roll"],
+   // image: appetizerImages["2. Spring Roll"],
   },
   {
     id: 3,
@@ -27,21 +27,21 @@ export const appetizers: MenuItem[] = [
     price: "$13.95",
     category: "appetizers",
     isPopular: true,
-    image: appetizerImages["3. Bar Dop Chicken Wings"],
+   // image: appetizerImages["3. Bar Dop Chicken Wings"],
   },
   {
     id: 4,
     name: "4. B.B.Q. Pork",
     price: "$13.95",
     category: "appetizers",
-    image: appetizerImages["4. B.B.Q. Pork"],
+   // image: appetizerImages["4. B.B.Q. Pork"],
   },
   {
     id: 5,
     name: "5. Honey Garlic Chicken Wings",
     price: "$14.95",
     category: "appetizers",
-    image: appetizerImages["5. Honey Garlic Chicken Wings"],
+  //  image: appetizerImages["5. Honey Garlic Chicken Wings"],
   },
   {
     id: 6,
@@ -49,7 +49,7 @@ export const appetizers: MenuItem[] = [
     price: "$14.95",
     category: "appetizers",
     isPopular: true,
-    image: appetizerImages["6. Honey Garlic Spare Ribs"],
+  // image: appetizerImages["6. Honey Garlic Spare Ribs"],
   },
   {
     id: 7,
@@ -57,6 +57,6 @@ export const appetizers: MenuItem[] = [
     price: "$7.95",
     category: "appetizers",
     isPopular: true,
-    image: appetizerImages["7. Sweet & Sour Won Ton"],
+  //  image: appetizerImages["7. Sweet & Sour Won Ton"],
   },
 ];
