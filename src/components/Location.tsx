@@ -22,7 +22,7 @@ const Location = () => {
           </div>
           
           <div className="bg-white p-10 rounded-lg shadow-md">
-            <h3 className="text-2xl font-bold font-serif mb-6 text-ming-black">
+            <h3 className="text-2xl font-bold font-serif mb-10 text-ming-black">
               Contact Information
             </h3>
             
