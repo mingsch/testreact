@@ -14,11 +14,11 @@ const Map = () => {
       const iframe = document.createElement("iframe");
       
       if (viewMode === "map") {
-        // Regular map view - updated to new address
+        // Regular map view
         iframe.src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2895.5893163839884!2d-80.54382108823567!3d43.47440846201995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882bf41c7dae4e41%3A0x389d525e6ae0527c!2s465%20Phillip%20St%2C%20Waterloo%2C%20ON%20N2L%206C7!5e0!3m2!1sen!2sca!4v1689349871412!5m2!1sen!2sca";
       } else {
-        // Street view - updated to new address
-        iframe.src = "https://www.google.com/maps/embed?pb=!4v1689349947183!6m8!1m7!1srNmfPHMG5gDjTzRV2bUYKw!2m2!1d43.47439866242318!2d-80.54146998470271!3f180!4f0!5f0.7820865974627469";
+        // Street view
+        iframe.src = "<https://www.google.com/maps/embed?pb=!4v1792551291916!6m8!1m7!1slvJn4TGVeUVJeCA5ze3u9A!2m2!1d43.48424081772034!2d-80.54068096312923!3f327.5471050821499!4f-8.621350221561471!5f0.7820865974627469";
       }
       
       iframe.width = "100%";

@@ -34,7 +34,10 @@ const About = () => {
                     <div>Tuesday</div>
                     <div>11:00 AM - 8:30 PM</div>
                     
-                    <div>Wednesday - Thursday</div>
+                    <div>Wednesday</div>
+                    <div>11:00 AM - 8:30 PM</div>
+
+                    <div>Thursday</div>
                     <div>11:00 AM - 8:30 PM</div>
                     
                     <div>Friday</div>

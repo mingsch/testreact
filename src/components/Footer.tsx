@@ -77,41 +77,41 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="text-lg font-bold mb-4 text-white">Opening Hours</h4>
+            <h4 className="text-lg font-bold mb-4 text-white">Business Hours</h4>
             <div className="text-white/80 space-y-2">
               <div className="grid grid-cols-[1fr,auto] gap-x-8">
                 <span>Monday</span>
-                <span className="whitespace-nowrap text-right">11:00 AM - 9:00 PM</span>
+                <span className="whitespace-nowrap text-right">11:00 AM - 8:30 PM</span>
               </div>
               
               <div className="grid grid-cols-[1fr,auto] gap-x-8">
                 <span>Tuesday</span>
-                <span className="whitespace-nowrap text-right">Closed</span>
+                <span className="whitespace-nowrap text-right">11:00 AM - 8:30 PM</span>
               </div>
               
               <div className="grid grid-cols-[1fr,auto] gap-x-8">
                 <span>Wednesday</span>
-                <span className="whitespace-nowrap text-right">11:00 AM - 9:00 PM</span>
+                <span className="whitespace-nowrap text-right">11:00 AM - 8:30 PM</span>
               </div>
               
               <div className="grid grid-cols-[1fr,auto] gap-x-8">
                 <span>Thursday</span>
-                <span className="whitespace-nowrap text-right">11:00 AM - 9:00 PM</span>
+                <span className="whitespace-nowrap text-right">11:00 AM - 8:30 PM</span>
               </div>
               
               <div className="grid grid-cols-[1fr,auto] gap-x-8">
                 <span>Friday</span>
-                <span className="whitespace-nowrap text-right">11:00 AM - 9:00 PM</span>
+                <span className="whitespace-nowrap text-right">11:00 AM - 8:30 PM</span>
               </div>
               
               <div className="grid grid-cols-[1fr,auto] gap-x-8">
                 <span>Saturday</span>
-                <span className="whitespace-nowrap text-right">3:30 PM - 9:00 PM</span>
+                <span className="whitespace-nowrap text-right">3:30 PM - 8:30 PM</span>
               </div>
               
               <div className="grid grid-cols-[1fr,auto] gap-x-8">
-                <span>Sunday & Holiday</span>
-                <span className="whitespace-nowrap text-right">3:30 PM - 9:00 PM</span>
+                <span>Sunday & Holidays</span>
+                <span className="whitespace-nowrap text-right">3:30 PM - 8:30 PM</span>
               </div>
             </div>
           </div>
