@@ -74,7 +74,7 @@ const About = () => {
           </div>
           
           <div className="relative overflow-hidden rounded-lg shadow-xl h-[400px] md:h-[500px]">
-            <img src={publicAsset("/lovable-uploads/interior.png")} alt="Ming's Restaurant Interior" className="w-full h-full object-cover" />
+            <img src={publicAsset("/images/interior.png")} alt="Ming's Restaurant Interior" className="w-full h-full object-cover" />
           </div>
         </div>
       </div>
