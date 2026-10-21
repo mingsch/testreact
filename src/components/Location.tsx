@@ -21,13 +21,13 @@ const Location = () => {
             </p>
           </div>
           
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="bg-white p-10 rounded-lg shadow-md">
             <h3 className="text-2xl font-bold font-serif mb-6 text-ming-black">
               Contact Information
             </h3>
             
             <div className="space-y-6">
-              <div className="flex items-start gap-10">
+              <div className="flex items-start gap-4">
                 <div className="bg-ming-red/10 p-3 rounded-full">
                   <Clock className="h-6 w-6 text-ming-red" />
                 </div>
