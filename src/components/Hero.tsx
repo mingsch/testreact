@@ -22,7 +22,7 @@ const Hero = () => {
       {/* Ming's sign image - full width of the page */}
       <div className="w-full px-4 sm:px-6 lg:px-8 mt-[-60px] mb-12 relative z-20">
         <img 
-          src={publicAsset("/lovable-uploads/6dc18f3f-a534-4c59-8181-c51443f9d4fb.png")}
+          src={publicAsset("/images/banner.png")}
           alt="Ming's Chinese Restaurant Sign"
           className="w-full h-auto object-contain"
           onLoad={() => console.log("Ming's sign image loaded")}
