@@ -1,0 +1,3 @@
+- [x] Configure GitHub Pages builds and master → gh-pages deployment.
+- [x] Make local assets and navigation respect the deployment path.
+- [x] Test deployment paths and verify the site; document GitHub setup.
