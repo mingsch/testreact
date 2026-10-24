@@ -4,7 +4,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://mingsrestaurant.ca/sitemap.xml
+Sitemap: https://mingswaterloo.com/sitemap.xml
 
 # Google-specific directives
 User-agent: Googlebot
