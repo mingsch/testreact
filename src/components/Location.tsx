@@ -1,4 +1,3 @@
-
 import React from "react";
 import Map from "./Map";
 import { Clock, Phone, MapPin } from "lucide-react";
@@ -21,7 +20,7 @@ const Location = () => {
             </p>
           </div>
           
-          <div className="bg-white p-10 rounded-lg shadow-md">
+          <div className="bg-white p-6 rounded-lg shadow-md">
             <h3 className="text-2xl font-bold font-serif mb-6 text-ming-black">
               Contact Information
             </h3>
@@ -34,27 +33,27 @@ const Location = () => {
                 <div>
                   <h4 className="font-semibold text-ming-black">Opening Hours</h4>
                   <div className="text-ming-dark/70 mt-1">
-                    <div className="grid grid-cols-2 gap-2">
-                      <div>Monday</div>
-                      <div>11:00 AM - 8:30 PM</div>
-                      
-                      <div>Tuesday</div>
-                      <div>11:00 AM - 8:30 PM</div>
-                      
-                      <div>Wednesday</div>
-                      <div>11:00 AM - 8:30 PM</div>
+                    <div className="grid grid-cols-[1fr,auto] gap-x-4 gap-y-2">
+                      <div className="whitespace-nowrap"><div>Monday</div>
+                      <div className="whitespace-nowrap">11:00 AM - 8:30 PM</div>
 
-                      <div>Thursday</div>
-                      <div>11:00 AM - 8:30 PM</div>
-                      
-                      <div>Friday</div>
-                      <div>11:00 AM - 8:30 PM</div>
-                      
-                      <div>Saturday</div>
-                      <div>3:30 PM - 8:30 PM</div>
-                      
-                      <div>Sunday & Holidays</div>
-                      <div>3:30 PM - 8:30 PM</div>
+                     <div className="whitespace-nowrap"> <div>Tuesday</div>
+                      <div className="whitespace-nowrap">11:00 AM - 8:30 PM</div>
+
+                      <div className="whitespace-nowrap"><div>Wednesday</div>
+                      <div className="whitespace-nowrap">11:00 AM - 8:30 PM</div>
+
+                      <div className="whitespace-nowrap"><div>Thursday</div>
+                      <div className="whitespace-nowrap">11:00 AM - 8:30 PM</div>
+
+                      <div className="whitespace-nowrap"><div>Friday</div>
+                      <div className="whitespace-nowrap">11:00 AM - 8:30 PM</div>
+
+                      <div className="whitespace-nowrap"><div>Saturday</div>
+                      <div className="whitespace-nowrap">3:00 PM - 8:30 PM</div>
+
+                      <div className="whitespace-nowrap"><div>Sunday & Holidays</div>
+                      <div className="whitespace-nowrap">3:00 PM - 8:30 PM</div>
                     </div>
                   </div>
                 </div>
