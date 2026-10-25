@@ -17,7 +17,7 @@ const About = () => {
             </p>
             
             <p className="text-lg leading-relaxed font-medium text-gray-800">
-              At Ming's, we take pride in our traditional recipes passed down through generations, while embracing modern culinary techniques to create dishes that are both authentic and innovative.
+              At Ming's, we take pride in our traditional recipes while embracing modern culinary techniques to create dishes that are both authentic and innovative.
             </p>
             
             <div className="mt-8 space-y-4">
