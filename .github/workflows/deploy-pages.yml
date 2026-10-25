@@ -34,12 +34,16 @@ jobs:
       - name: Build site
         run: npm run build
         env:
-          VITE_BASE_PATH: /${{ github.event.repository.name }}/
+          # Custom domain (www.mingswaterloo.com) serves the site at the root,
+          # so the base path must be "/" — a repository-subdirectory base would
+          # make every asset 404 and the page render blank.
+          VITE_BASE_PATH: /
 
       - name: Add static-host support
         run: |
           cp dist/index.html dist/404.html
           touch dist/.nojekyll
+          echo "www.mingswaterloo.com" > dist/CNAME
 
       - name: Publish built site to gh-pages
         uses: peaceiris/actions-gh-pages@v4
