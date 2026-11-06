@@ -13,14 +13,14 @@ export const chopSuey: MenuItem[] = [
   {
     id: 14,
     name: "14. Vegetable Chop Suey",
-    price: "$12.95",
+    price: "$13.50",
     category: "chopSuey",
     image: chopSueyImages["14. Vegetable Chop Suey"]
   },
   {
     id: 15,
     name: "15. Chicken Chop Suey",
-    price: "$13.50",
+    price: "$14.50",
     category: "chopSuey",
     isPopular: true,
     image: chopSueyImages["15. Chicken Chop Suey"]
@@ -28,7 +28,7 @@ export const chopSuey: MenuItem[] = [
   {
     id: 16,
     name: "16. Beef Chop Suey",
-    price: "$13.95",
+    price: "$14.95",
     category: "chopSuey",
     isPopular: true,
     image: chopSueyImages["16. Beef Chop Suey"]
@@ -36,14 +36,14 @@ export const chopSuey: MenuItem[] = [
   {
     id: 17,
     name: "17. B.B.Q. Pork Chop Suey",
-    price: "$13.95",
+    price: "$14.50",
     category: "chopSuey",
     image: chopSueyImages["17. B.B.Q. Pork Chop Suey"]
   },
   {
     id: 18,
     name: "18. Shrimps Chop Suey",
-    price: "$15.50",
+    price: "$16.50",
     category: "chopSuey",
     isPopular: true,
     image: chopSueyImages["18. Shrimps Chop Suey"]
