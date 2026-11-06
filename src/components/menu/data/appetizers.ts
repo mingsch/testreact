@@ -24,7 +24,7 @@ export const appetizers: MenuItem[] = [
   {
     id: 3,
     name: "3. Jar Doo Chicken Wings",
-    price: "$13.95",
+    price: "$14.95",
     category: "appetizers",
     isPopular: true,
    // image: appetizerImages["3. Bar Dop Chicken Wings"],
@@ -32,21 +32,21 @@ export const appetizers: MenuItem[] = [
   {
     id: 4,
     name: "4. B.B.Q. Pork",
-    price: "$13.95",
+    price: "$14.95",
     category: "appetizers",
    // image: appetizerImages["4. B.B.Q. Pork"],
   },
   {
     id: 5,
     name: "5. Honey Garlic Chicken Wings",
-    price: "$14.95",
+    price: "$15.95",
     category: "appetizers",
   //  image: appetizerImages["5. Honey Garlic Chicken Wings"],
   },
   {
     id: 6,
     name: "6. Honey Garlic Spare Ribs",
-    price: "$14.95",
+    price: "$15.95",
     category: "appetizers",
     isPopular: true,
   // image: appetizerImages["6. Honey Garlic Spare Ribs"],
