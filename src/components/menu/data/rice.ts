@@ -23,21 +23,21 @@ export const rice: MenuItem[] = [
   {
     id: 20,
     name: "20. Vegetable Fried Rice",
-    price: "$11.50",
+    price: "$11.95",
     category: "rice",
     image: riceImages["20. Vegetable Fried Rice"]
   },
   {
     id: 21,
     name: "21. Mushroom Fried Rice",
-    price: "$11.50",
+    price: "$11.95",
     category: "rice",
     image: riceImages["21. Mushroom Fried Rice"]
   },
   {
     id: 22,
     name: "22. Chicken Fried Rice",
-    price: "$11.50",
+    price: "$11.95",
     category: "rice",
     isPopular: true,
     image: riceImages["22. Chicken Fried Rice"]
@@ -45,28 +45,28 @@ export const rice: MenuItem[] = [
   {
     id: 23,
     name: "23. Beef Fried Rice",
-    price: "$11.50",
+    price: "$12.50",
     category: "rice",
     image: riceImages["23. Beef Fried Rice"]
   },
   {
     id: 24,
     name: "24. Pork Fried Rice",
-    price: "$11.50",
+    price: "$11.95",
     category: "rice",
     image: riceImages["24. Pork Fried Rice"]
   },
   {
     id: 25,
     name: "25. Shrimp Fried Rice",
-    price: "$13.95",
+    price: "$14.95",
     category: "rice",
     image: riceImages["25. Shrimp Fried Rice"]
   },
   {
     id: 26,
     name: "26. Special Fried Rice",
-    price: "$13.95",
+    price: "$14.95",
     category: "rice",
     isPopular: true,
     image: riceImages["26. Special Fried Rice"]
