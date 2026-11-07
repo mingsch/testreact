@@ -33,7 +33,7 @@ export const specialties: MenuItem[] = [
     id: 30,
     name: "30. Chow Sam Sin (Seafood)",
     description: "Jumbo shrimp and scallops combined with fresh vegetable covered in a delicious sauce",
-    price: "$22.95",
+    price: "$21.95",
     category: "specialties",
     image: "/lovable-uploads/3dd9a7b4-f5bb-41c5-8bad-b24e2d99d3d9.png"
   },
