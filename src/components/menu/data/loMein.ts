@@ -12,7 +12,7 @@ export const loMein: MenuItem[] = [
   {
     id: 84,
     name: "84. Chicken Lo Mein",
-    price: "$15.95",
+    price: "$15.50",
     category: "loMein",
     isPopular: true,
     image: "/lovable-uploads/b42d4a13-dcd1-4081-b5ac-d2bc6af26b32.png"
@@ -27,21 +27,21 @@ export const loMein: MenuItem[] = [
   {
     id: 86,
     name: "86. B.B.Q. Pork Lo Mein",
-    price: "$15.95",
+    price: "$15.50",
     category: "loMein",
     image: "/lovable-uploads/614a5523-fa0e-47ea-b57b-ab5b2e40860f.png"
   },
   {
     id: 87,
     name: "87. Shrimp Lo Mein",
-    price: "$16.95",
+    price: "$16.50",
     category: "loMein",
     image: "/lovable-uploads/149ee2b3-5325-474f-85fb-ce244d2a9fa8.png"
   },
   {
     id: 88,
     name: "88. Szechuan Beef Lo Mein",
-    price: "$16.95",
+    price: "$16.50",
     category: "loMein",
     isSpicy: true,
     image: "/lovable-uploads/ee9361c1-4129-4e5c-a7ad-990663b51a19.png"
