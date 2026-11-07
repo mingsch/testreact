@@ -5,7 +5,7 @@ export const szechuan: MenuItem[] = [
   {
     id: 62,
     name: "62. Szechuan Chicken",
-    price: "$15.95",
+    price: "$15.50",
     category: "szechuan",
     isSpicy: true,
     image: "/lovable-uploads/c390ce52-4d22-417d-b6e1-0fc3723dcd44.png"
@@ -22,7 +22,7 @@ export const szechuan: MenuItem[] = [
   {
     id: 64,
     name: "64. Szechuan Shrimp",
-    price: "$17.95",
+    price: "$17.50",
     category: "szechuan",
     isSpicy: true,
     image: "/lovable-uploads/cbb86db7-3441-42b5-8eb8-a7eb00d68f47.png"
@@ -30,7 +30,7 @@ export const szechuan: MenuItem[] = [
   {
     id: 65,
     name: "65. Szechuan B.B.Q. Pork",
-    price: "$15.95",
+    price: "$15.50",
     category: "szechuan",
     isSpicy: true,
     image: "/lovable-uploads/2f981cb7-ce0c-40e0-ac3b-6d82014084c4.png"
