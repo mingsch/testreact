@@ -46,7 +46,7 @@ export const appetizers: MenuItem[] = [
   {
     id: 6,
     name: "6. Honey Garlic Spare Ribs",
-    price: "$15.95",
+    price: "$15.50",
     category: "appetizers",
     isPopular: true,
   // image: appetizerImages["6. Honey Garlic Spare Ribs"],
