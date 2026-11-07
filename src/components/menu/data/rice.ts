@@ -59,7 +59,7 @@ export const rice: MenuItem[] = [
   {
     id: 25,
     name: "25. Shrimp Fried Rice",
-    price: "$14.95",
+    price: "$14.50",
     category: "rice",
     image: riceImages["25. Shrimp Fried Rice"]
   },
